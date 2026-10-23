@@ -1,0 +1,53 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jaldi"
+version = "0.1.0"
+description = "Learning when a voice agent can start answering before the user finishes (speculative generation policy for English, Hindi and Hinglish)."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "T V V Sai Karthik" }]
+dependencies = [
+  "numpy>=1.26",
+  "pandas>=2.1",
+  "scikit-learn>=1.4",
+  "lightgbm>=4.3",
+  "matplotlib>=3.8",
+]
+
+[project.optional-dependencies]
+# Corpus generation with Claude (Stage 1, optional; the template generator needs no key)
+llm = ["anthropic>=0.40", "python-dotenv>=1.0"]
+# GPU stages on Colab: TTS, ASR partials, LLM labels, turn detector, text encoder
+gpu = [
+  "torch",
+  "torchaudio",
+  "transformers>=4.44",
+  "soundfile",
+  "onnxruntime-gpu",
+  "huggingface_hub",
+  "accelerate",
+]
+labels = ["vllm"]
+demo = ["gradio>=4.0"]
+dev = ["pytest>=8", "ruff>=0.5"]
+
+[project.scripts]
+jaldi = "jaldi.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["jaldi*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+ignore = ["E501", "B905"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

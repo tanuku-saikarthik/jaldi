@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+.env
+.pytest_cache/
+.ruff_cache/
+data/*
+!data/.gitkeep
+*.wav
+.ipynb_checkpoints/
