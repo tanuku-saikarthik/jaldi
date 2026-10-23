@@ -1,0 +1,7 @@
+{
+  "mode": "text_sim",
+  "turns": 1800,
+  "partials_per_turn_mean": 19.965,
+  "min": 7,
+  "max": 45
+}

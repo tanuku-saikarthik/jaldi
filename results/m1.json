@@ -1,0 +1,408 @@
+{
+  "by_lang": {
+    "en": {
+      "n_turns": 634,
+      "meaning_flip_rate": [
+        0.083596214511041,
+        0.061514195583596214,
+        0.1056782334384858
+      ],
+      "false_actionable_rate": [
+        0.4637223974763407,
+        0.4274447949526814,
+        0.5063091482649842
+      ],
+      "l1_headroom_ms_median": 265.95000000000005,
+      "l2_headroom_ms_median": 349.5500000000002,
+      "l2_headroom_ms_mean": [
+        494.79179810725554,
+        463.9564471608833,
+        526.6648067823344
+      ],
+      "words_after_action_settles_mean": 0.4889589905362776
+    },
+    "hi": {
+      "n_turns": 613,
+      "meaning_flip_rate": [
+        0.1402936378466558,
+        0.11419249592169657,
+        0.16802610114192496
+      ],
+      "false_actionable_rate": [
+        0.2903752039151713,
+        0.2561174551386623,
+        0.32463295269168024
+      ],
+      "l1_headroom_ms_median": 273.9000000000001,
+      "l2_headroom_ms_median": 827.1999999999998,
+      "l2_headroom_ms_mean": [
+        816.6698205546493,
+        800.9834624796085,
+        831.8317373572594
+      ],
+      "words_after_action_settles_mean": 1.6900489396411094
+    },
+    "hinglish": {
+      "n_turns": 553,
+      "meaning_flip_rate": [
+        0.1717902350813743,
+        0.13924050632911392,
+        0.20614828209764918
+      ],
+      "false_actionable_rate": [
+        0.29475587703435807,
+        0.2549728752260398,
+        0.3345388788426763
+      ],
+      "l1_headroom_ms_median": 266.0,
+      "l2_headroom_ms_median": 875.9000000000001,
+      "l2_headroom_ms_mean": [
+        873.7488245931285,
+        854.8379746835443,
+        892.5841229656419
+      ],
+      "words_after_action_settles_mean": 1.7106690777576854
+    }
+  },
+  "flip_by_phenomenon": {
+    "en": {
+      "hesitation": {
+        "rate": 0.0,
+        "n": 61
+      },
+      "late_correction_end": {
+        "rate": 1.0,
+        "n": 23
+      },
+      "late_correction_in_place": {
+        "rate": 1.0,
+        "n": 30
+      },
+      "negation": {
+        "rate": 0.0,
+        "n": 68
+      },
+      "plain": {
+        "rate": 0.0,
+        "n": 386
+      },
+      "trailing_qualifier": {
+        "rate": 0.0,
+        "n": 66
+      }
+    },
+    "hi": {
+      "hesitation": {
+        "rate": 0.0,
+        "n": 82
+      },
+      "late_correction_end": {
+        "rate": 1.0,
+        "n": 36
+      },
+      "late_correction_in_place": {
+        "rate": 0.0,
+        "n": 23
+      },
+      "negation": {
+        "rate": 0.9803921568627451,
+        "n": 51
+      },
+      "plain": {
+        "rate": 0.0,
+        "n": 366
+      },
+      "trailing_qualifier": {
+        "rate": 0.0,
+        "n": 55
+      }
+    },
+    "hinglish": {
+      "hesitation": {
+        "rate": 0.0,
+        "n": 56
+      },
+      "late_correction_end": {
+        "rate": 1.0,
+        "n": 25
+      },
+      "late_correction_in_place": {
+        "rate": 0.0,
+        "n": 35
+      },
+      "negation": {
+        "rate": 1.0,
+        "n": 70
+      },
+      "plain": {
+        "rate": 0.0,
+        "n": 313
+      },
+      "trailing_qualifier": {
+        "rate": 0.0,
+        "n": 54
+      }
+    }
+  },
+  "pause_sweep_test_l2": {
+    "en": [
+      {
+        "x_ms": 100,
+        "n_turns": 204,
+        "mean_saved_ms": 248.11470588235295,
+        "commit_rate": 0.8431372549019608,
+        "wasted_per_turn": 1.2058823529411764,
+        "calls_per_turn": 2.049019607843137,
+        "wrong_commit_rate": 0.0,
+        "latency_p50_ms": 843.3999999999999,
+        "latency_p90_ms": 1100.0,
+        "baseline_latency_ms": 1100.0
+      },
+      {
+        "x_ms": 200,
+        "n_turns": 204,
+        "mean_saved_ms": 196.24019607843138,
+        "commit_rate": 0.9117647058823529,
+        "wasted_per_turn": 0.9068627450980392,
+        "calls_per_turn": 1.8186274509803921,
+        "wrong_commit_rate": 0.0,
+        "latency_p50_ms": 905.25,
+        "latency_p90_ms": 1100.0,
+        "baseline_latency_ms": 1100.0
+      },
+      {
+        "x_ms": 300,
+        "n_turns": 204,
+        "mean_saved_ms": 114.53774509803924,
+        "commit_rate": 0.9607843137254902,
+        "wasted_per_turn": 0.6421568627450981,
+        "calls_per_turn": 1.6029411764705883,
+        "wrong_commit_rate": 0.0,
+        "latency_p50_ms": 1010.8999999999996,
+        "latency_p90_ms": 1097.0100000000002,
+        "baseline_latency_ms": 1100.0
+      },
+      {
+        "x_ms": 400,
+        "n_turns": 204,
+        "mean_saved_ms": 53.28627450980393,
+        "commit_rate": 0.9656862745098039,
+        "wasted_per_turn": 0.4852941176470588,
+        "calls_per_turn": 1.4509803921568627,
+        "wrong_commit_rate": 0.0,
+        "latency_p50_ms": 1095.45,
+        "latency_p90_ms": 1100.0,
+        "baseline_latency_ms": 1100.0
+      },
+      {
+        "x_ms": 500,
+        "n_turns": 204,
+        "mean_saved_ms": 26.470588235294116,
+        "commit_rate": 0.9852941176470589,
+        "wasted_per_turn": 0.39215686274509803,
+        "calls_per_turn": 1.3774509803921569,
+        "wrong_commit_rate": 0.0,
+        "latency_p50_ms": 1100.0,
+        "latency_p90_ms": 1100.0,
+        "baseline_latency_ms": 1100.0
+      },
+      {
+        "x_ms": 600,
+        "n_turns": 204,
+        "mean_saved_ms": 17.647058823529413,
+        "commit_rate": 0.029411764705882353,
+        "wasted_per_turn": 0.3088235294117647,
+        "calls_per_turn": 0.3382352941176471,
+        "wrong_commit_rate": 0.0,
+        "latency_p50_ms": 1100.0,
+        "latency_p90_ms": 1100.0,
+        "baseline_latency_ms": 1100.0
+      },
+      {
+        "x_ms": 800,
+        "n_turns": 204,
+        "mean_saved_ms": 17.647058823529413,
+        "commit_rate": 0.029411764705882353,
+        "wasted_per_turn": 0.18627450980392157,
+        "calls_per_turn": 0.21568627450980393,
+        "wrong_commit_rate": 0.0,
+        "latency_p50_ms": 1100.0,
+        "latency_p90_ms": 1100.0,
+        "baseline_latency_ms": 1100.0
+      }
+    ],
+    "hi": [
+      {
+        "x_ms": 100,
+        "n_turns": 187,
+        "mean_saved_ms": 277.4572192513369,
+        "commit_rate": 0.9197860962566845,
+        "wasted_per_turn": 1.2352941176470589,
+        "calls_per_turn": 2.1550802139037435,
+        "wrong_commit_rate": 0.0,
+        "latency_p50_ms": 806.6999999999998,
+        "latency_p90_ms": 895.4800000000004,
+        "baseline_latency_ms": 1100.0
+      },
+      {
+        "x_ms": 200,
+        "n_turns": 187,
+        "mean_saved_ms": 189.14652406417116,
+        "commit_rate": 0.9518716577540107,
+        "wasted_per_turn": 0.9518716577540107,
+        "calls_per_turn": 1.9037433155080214,
+        "wrong_commit_rate": 0.0,
+        "latency_p50_ms": 908.6999999999998,
+        "latency_p90_ms": 985.96,
+        "baseline_latency_ms": 1100.0
+      },
+      {
+        "x_ms": 300,
+        "n_turns": 187,
+        "mean_saved_ms": 101.02406417112302,
+        "commit_rate": 0.9946524064171123,
+        "wasted_per_turn": 0.6417112299465241,
+        "calls_per_turn": 1.6363636363636365,
+        "wrong_commit_rate": 0.0,
+        "latency_p50_ms": 994.1999999999998,
+        "latency_p90_ms": 1077.34,
+        "baseline_latency_ms": 1100.0
+      },
+      {
+        "x_ms": 400,
+        "n_turns": 187,
+        "mean_saved_ms": 24.522994652406418,
+        "commit_rate": 0.9946524064171123,
+        "wasted_per_turn": 0.5561497326203209,
+        "calls_per_turn": 1.5508021390374331,
+        "wrong_commit_rate": 0.0,
+        "latency_p50_ms": 1100.0,
+        "latency_p90_ms": 1100.0,
+        "baseline_latency_ms": 1100.0
+      },
+      {
+        "x_ms": 500,
+        "n_turns": 187,
+        "mean_saved_ms": 0.0,
+        "commit_rate": 1.0,
+        "wasted_per_turn": 0.47058823529411764,
+        "calls_per_turn": 1.4705882352941178,
+        "wrong_commit_rate": 0.0,
+        "latency_p50_ms": 1100.0,
+        "latency_p90_ms": 1100.0,
+        "baseline_latency_ms": 1100.0
+      },
+      {
+        "x_ms": 600,
+        "n_turns": 187,
+        "mean_saved_ms": 0.0,
+        "commit_rate": 0.0,
+        "wasted_per_turn": 0.41711229946524064,
+        "calls_per_turn": 0.41711229946524064,
+        "wrong_commit_rate": 0.0,
+        "latency_p50_ms": 1100.0,
+        "latency_p90_ms": 1100.0,
+        "baseline_latency_ms": 1100.0
+      },
+      {
+        "x_ms": 800,
+        "n_turns": 187,
+        "mean_saved_ms": 0.0,
+        "commit_rate": 0.0,
+        "wasted_per_turn": 0.25133689839572193,
+        "calls_per_turn": 0.25133689839572193,
+        "wrong_commit_rate": 0.0,
+        "latency_p50_ms": 1100.0,
+        "latency_p90_ms": 1100.0,
+        "baseline_latency_ms": 1100.0
+      }
+    ],
+    "hinglish": [
+      {
+        "x_ms": 100,
+        "n_turns": 178,
+        "mean_saved_ms": 248.95056179775278,
+        "commit_rate": 0.8539325842696629,
+        "wasted_per_turn": 1.3820224719101124,
+        "calls_per_turn": 2.235955056179775,
+        "wrong_commit_rate": 0.0,
+        "latency_p50_ms": 828.6500000000001,
+        "latency_p90_ms": 1100.0,
+        "baseline_latency_ms": 1100.0
+      },
+      {
+        "x_ms": 200,
+        "n_turns": 178,
+        "mean_saved_ms": 186.99044943820226,
+        "commit_rate": 0.9157303370786517,
+        "wasted_per_turn": 1.0674157303370786,
+        "calls_per_turn": 1.9831460674157304,
+        "wrong_commit_rate": 0.0,
+        "latency_p50_ms": 897.3000000000002,
+        "latency_p90_ms": 994.4499999999998,
+        "baseline_latency_ms": 1100.0
+      },
+      {
+        "x_ms": 300,
+        "n_turns": 178,
+        "mean_saved_ms": 90.3494382022472,
+        "commit_rate": 0.9606741573033708,
+        "wasted_per_turn": 0.7415730337078652,
+        "calls_per_turn": 1.702247191011236,
+        "wrong_commit_rate": 0.0,
+        "latency_p50_ms": 1021.1000000000001,
+        "latency_p90_ms": 1087.4099999999999,
+        "baseline_latency_ms": 1100.0
+      },
+      {
+        "x_ms": 400,
+        "n_turns": 178,
+        "mean_saved_ms": 26.566292134831468,
+        "commit_rate": 0.9831460674157303,
+        "wasted_per_turn": 0.5955056179775281,
+        "calls_per_turn": 1.5786516853932584,
+        "wrong_commit_rate": 0.0,
+        "latency_p50_ms": 1089.0,
+        "latency_p90_ms": 1100.0,
+        "baseline_latency_ms": 1100.0
+      },
+      {
+        "x_ms": 500,
+        "n_turns": 178,
+        "mean_saved_ms": 0.0,
+        "commit_rate": 0.9887640449438202,
+        "wasted_per_turn": 0.5617977528089888,
+        "calls_per_turn": 1.550561797752809,
+        "wrong_commit_rate": 0.0,
+        "latency_p50_ms": 1100.0,
+        "latency_p90_ms": 1100.0,
+        "baseline_latency_ms": 1100.0
+      },
+      {
+        "x_ms": 600,
+        "n_turns": 178,
+        "mean_saved_ms": 0.0,
+        "commit_rate": 0.0,
+        "wasted_per_turn": 0.43258426966292135,
+        "calls_per_turn": 0.43258426966292135,
+        "wrong_commit_rate": 0.0,
+        "latency_p50_ms": 1100.0,
+        "latency_p90_ms": 1100.0,
+        "baseline_latency_ms": 1100.0
+      },
+      {
+        "x_ms": 800,
+        "n_turns": 178,
+        "mean_saved_ms": 0.0,
+        "commit_rate": 0.0,
+        "wasted_per_turn": 0.2640449438202247,
+        "calls_per_turn": 0.2640449438202247,
+        "wrong_commit_rate": 0.0,
+        "latency_p50_ms": 1100.0,
+        "latency_p90_ms": 1100.0,
+        "baseline_latency_ms": 1100.0
+      }
+    ]
+  },
+  "note": "Descriptive stats use all turns; the heuristic sweep uses the test split."
+}

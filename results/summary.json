@@ -1,0 +1,15 @@
+{
+  "mode": "text_sim",
+  "extractor": "rule",
+  "n_turns": 1800,
+  "verdicts": [
+    "Late meaning flips: Hindi 14.0% vs English 8.4% (higher; 95% CIs do not overlap).",
+    "Late meaning flips: Hinglish 17.2% vs English 8.4% (higher; 95% CIs do not overlap).",
+    "Negation turns that flip: English 0.0%, Hindi 98.0%, Hinglish 100.0%. In these templates English states negation before the verb; Hindi/Hinglish after it.",
+    "Opportunity runs the other way: median L2 headroom English 350 ms, Hindi 827 ms, Hinglish 876 ms (the action settles at the verb, before trailing auxiliaries like \"करनी है\").",
+    "English-tuned pause heuristic (X=400 ms, tuned under ≤ 0.5 wasted calls/turn): English 53 ms saved / 0.49 wasted, Hindi 25 ms saved / 0.56 wasted, Hinglish 27 ms saved / 0.60 wasted. Pauses here follow one distribution for every language, so a pause rule cannot see word order: it neither avoids the negation flips nor uses the extra headroom.",
+    "Jaldi (τ=0.7, tuned under ≤ 0.25 wasted calls/turn) saves English 63 ms, Hindi 216 ms, Hinglish 258 ms per turn on average.",
+    "L1 gate (model 95% CI lower bound > best single heuristic 95% CI upper bound): PASSED vs pause (silence_ms).",
+    "L2 gate (model 95% CI lower bound > best single heuristic 95% CI upper bound): PASSED vs pause (silence_ms)."
+  ]
+}

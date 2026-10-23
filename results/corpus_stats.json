@@ -1,0 +1,47 @@
+{
+  "n_turns": 1800,
+  "by_lang": {
+    "en": 634,
+    "hinglish": 553,
+    "hi": 613
+  },
+  "by_split": {
+    "test": 569,
+    "val": 273,
+    "train": 958
+  },
+  "phenomenon_by_lang": {
+    "en": {
+      "plain": 386,
+      "negation": 68,
+      "late_correction": 53,
+      "trailing_qualifier": 66,
+      "hesitation": 61
+    },
+    "hi": {
+      "plain": 366,
+      "negation": 51,
+      "late_correction": 59,
+      "trailing_qualifier": 55,
+      "hesitation": 82
+    },
+    "hinglish": {
+      "plain": 313,
+      "negation": 70,
+      "late_correction": 60,
+      "trailing_qualifier": 54,
+      "hesitation": 56
+    }
+  },
+  "invalid_gold_actions": 0,
+  "rule_extractor_matches_gold_on_final_text": 1.0,
+  "split_scenarios": {
+    "val": [
+      "delivery"
+    ],
+    "test": [
+      "clinic",
+      "cab"
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "seed": 13,
+  "data_dir": "data",
+  "results_dir": "results",
+  "n_turns": 1800,
+  "lang_mix": {
+    "en": 0.35,
+    "hi": 0.35,
+    "hinglish": 0.3
+  },
+  "phenomenon_mix": {
+    "plain": 0.6,
+    "negation": 0.1,
+    "late_correction": 0.1,
+    "trailing_qualifier": 0.1,
+    "hesitation": 0.1
+  },
+  "val_scenarios": [
+    "delivery"
+  ],
+  "test_scenarios": [
+    "clinic",
+    "cab"
+  ],
+  "none_pause_ms": [
+    20,
+    100
+  ],
+  "short_pause_ms": [
+    150,
+    400
+  ],
+  "long_pause_ms": [
+    500,
+    1200
+  ],
+  "pause_probs": {
+    "none": 0.45,
+    "short": 0.35,
+    "long": 0.2
+  },
+  "partial_step_ms": 200,
+  "endpoint_delay_ms": 500,
+  "sim_asr_lag_ms": 120,
+  "sim_p_early_word": 0.3,
+  "sim_p_revision": 0.12,
+  "time_to_ready_ms": 600.0,
+  "time_to_ready_sensitivity": [
+    300.0,
+    600.0,
+    1000.0
+  ],
+  "max_speculations": 3,
+  "pause_sweep_ms": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    800
+  ],
+  "stable_sweep_k": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "cost_per_wasted_call_ms": [
+    100.0,
+    300.0,
+    1000.0
+  ],
+  "waste_budgets": [
+    0.25,
+    0.5,
+    1.0
+  ],
+  "bootstrap": 1000
+}

@@ -43,6 +43,7 @@ include = ["jaldi*"]
 
 [tool.ruff]
 line-length = 100
+extend-exclude = ["notebooks"]
 target-version = "py311"
 
 [tool.ruff.lint]

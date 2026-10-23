@@ -1,0 +1,2307 @@
+[
+  {
+    "id": "t01005",
+    "lang": "en",
+    "phenomenon": "negation",
+    "final_text": "um, I don't want to book an appointment with a skin specialist at eleven",
+    "gold_action": {
+      "intent": "book_appointment",
+      "polarity": "neg",
+      "slots": {
+        "doctor": "skin",
+        "time": "11"
+      }
+    },
+    "eot_ms": 6584.3,
+    "speech_end_ms": 6084.3,
+    "pause_x_ms": 200.0,
+    "tau": 0.7,
+    "time_to_ready_ms": 600.0,
+    "partials": [
+      {
+        "t_ms": 800,
+        "text": "umm",
+        "silence_ms": 51.2,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 1000,
+        "text": "um, I",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 1200,
+        "text": "um, I",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 1400,
+        "text": "um, I don't wan",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 1600,
+        "text": "um, I don't want",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 1800,
+        "text": "um, I don't want too",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 2000,
+        "text": "um, I don't want to",
+        "silence_ms": 28.2,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 2200,
+        "text": "um, I don't want to book",
+        "silence_ms": 228.2,
+        "p_safe": 0.2954545454545454,
+        "l2": 0,
+        "pause_trigger": true,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 2400,
+        "text": "um, I don't want to book",
+        "silence_ms": 428.2,
+        "p_safe": 0.3472222222222222,
+        "l2": 0,
+        "pause_trigger": true,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 2600,
+        "text": "um, I don't want to boo",
+        "silence_ms": 628.2,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": true,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 2800,
+        "text": "um, I don't want to book",
+        "silence_ms": 828.2,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": true,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 3000,
+        "text": "um, I don't want to book",
+        "silence_ms": 0.0,
+        "p_safe": 0.2969647612823712,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 3200,
+        "text": "um, I don't want to book",
+        "silence_ms": 0.0,
+        "p_safe": 0.2954545454545454,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 3400,
+        "text": "um, I don't want to book an ap",
+        "silence_ms": 0.0,
+        "p_safe": 0.3526011560693641,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 3600,
+        "text": "um, I don't want to book an appoin",
+        "silence_ms": 0.0,
+        "p_safe": 0.2954545454545454,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 3800,
+        "text": "um, I don't want to book an appointmen",
+        "silence_ms": 0.0,
+        "p_safe": 0.6838235294117647,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 4000,
+        "text": "um, I don't want to book an appointment",
+        "silence_ms": 0.0,
+        "p_safe": 0.6838235294117647,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 4200,
+        "text": "um, I don't want to book an appointment with",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 4400,
+        "text": "um, I don't want to book an appointment with a",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 4600,
+        "text": "um, I don't want to book an appointment with a",
+        "silence_ms": 23.4,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 4800,
+        "text": "um, I don't want to book an appointment with a skin sp",
+        "silence_ms": 0.0,
+        "p_safe": 0.0416666666666666,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 5000,
+        "text": "um, I don't want to book an appointment with a skin",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 5200,
+        "text": "um, I don't want to book an appointment with a skin",
+        "silence_ms": 49.5,
+        "p_safe": 0.3526011560693641,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 5400,
+        "text": "um, I don't want to book an appointment with a skin specialist",
+        "silence_ms": 249.5,
+        "p_safe": 0.92,
+        "l2": 0,
+        "pause_trigger": true,
+        "jaldi_trigger": true
+      },
+      {
+        "t_ms": 5600,
+        "text": "um, I don't want to book an appointment with a skin specialist",
+        "silence_ms": 0.0,
+        "p_safe": 0.6340579710144928,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 5800,
+        "text": "um, I don't want to book an appointment with a skin specialist at",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 6000,
+        "text": "um, I don't want to book an appointment with a skin specialist at",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 6200,
+        "text": "um, I don't want to book an appointment with a skin specialist at",
+        "silence_ms": 115.7,
+        "p_safe": 0.3865546218487395,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 6400,
+        "text": "um, I don't want to book an appointment with a skin specialist at eleven",
+        "silence_ms": 315.7,
+        "p_safe": 0.8292682926829268,
+        "l2": 1,
+        "pause_trigger": true,
+        "jaldi_trigger": true
+      },
+      {
+        "t_ms": 6584.3,
+        "text": "um, I don't want to book an appointment with a skin specialist at eleven",
+        "silence_ms": 500.0,
+        "p_safe": 1.0,
+        "l2": 1,
+        "pause_trigger": true,
+        "jaldi_trigger": true
+      }
+    ],
+    "heuristic": {
+      "saved": 0.0,
+      "wasted": 3,
+      "calls": 3,
+      "committed": false,
+      "wrong_commit": false
+    },
+    "jaldi": {
+      "saved": 184.30000000000018,
+      "wasted": 1,
+      "calls": 2,
+      "committed": true,
+      "wrong_commit": false
+    }
+  },
+  {
+    "id": "t01317",
+    "lang": "en",
+    "phenomenon": "late_correction",
+    "final_text": "hi, I want to cancel my appointment for the day after tomorrow no wait, for Friday",
+    "gold_action": {
+      "intent": "cancel_appointment",
+      "polarity": "pos",
+      "slots": {
+        "day": "friday"
+      }
+    },
+    "eot_ms": 6780.2,
+    "speech_end_ms": 6280.2,
+    "pause_x_ms": 200.0,
+    "tau": 0.7,
+    "time_to_ready_ms": 600.0,
+    "partials": [
+      {
+        "t_ms": 600,
+        "text": "hi",
+        "silence_ms": 114.1,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 800,
+        "text": "hi,",
+        "silence_ms": 314.1,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": true,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 1000,
+        "text": "hi,",
+        "silence_ms": 514.1,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": true,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 1200,
+        "text": "hi,",
+        "silence_ms": 714.1,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": true,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 1400,
+        "text": "hi,",
+        "silence_ms": 914.1,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": true,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 1600,
+        "text": "hi,",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 1800,
+        "text": "hi, I",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 2000,
+        "text": "hi, I",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 2200,
+        "text": "hi, I want",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 2400,
+        "text": "hi, I want too",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 2600,
+        "text": "hi, I want to canc",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 2800,
+        "text": "hi, I want to cancel m",
+        "silence_ms": 0.0,
+        "p_safe": 0.3472222222222222,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 3000,
+        "text": "hi, I want to cancel myy",
+        "silence_ms": 0.0,
+        "p_safe": 0.2272727272727272,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 3200,
+        "text": "hi, I want to cancel my",
+        "silence_ms": 0.0,
+        "p_safe": 0.3472222222222222,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 3400,
+        "text": "hi, I want to cancel myy",
+        "silence_ms": 0.0,
+        "p_safe": 0.2954545454545454,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 3600,
+        "text": "hi, I want to cancel my appointment",
+        "silence_ms": 0.0,
+        "p_safe": 0.8292682926829268,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": true
+      },
+      {
+        "t_ms": 3800,
+        "text": "hi, I want to cancel my appointment for",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 4000,
+        "text": "hi, I want to cancel my appointment for",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 4200,
+        "text": "hi, I want to cancel my appointment for the",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 4400,
+        "text": "hi, I want to cancel my appointment for the da",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 4600,
+        "text": "hi, I want to cancel my appointment for the day",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 4800,
+        "text": "hi, I want to cancel my appointment for the day after",
+        "silence_ms": 0.0,
+        "p_safe": 0.2954545454545454,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 5000,
+        "text": "hi, I want to cancel my appointment for the day after tomorro",
+        "silence_ms": 27.6,
+        "p_safe": 0.2954545454545454,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 5200,
+        "text": "hi, I want to cancel my appointment for the day after tomorrow",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 5400,
+        "text": "hi, I want to cancel my appointment for the day after tomorrow no",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 5600,
+        "text": "hi, I want to cancel my appointment for the day after tomorrow no",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 5800,
+        "text": "hi, I want to cancel my appointment for the day after tomorrow no wait,",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 6000,
+        "text": "hi, I want to cancel my appointment for the day after tomorrow no wait,",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 6200,
+        "text": "hi, I want to cancel my appointment for the day after tomorrow no wait, for Fri",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 6400,
+        "text": "hi, I want to cancel my appointment for the day after tomorrow no wait, for",
+        "silence_ms": 119.8,
+        "p_safe": 0.3526011560693641,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 6600,
+        "text": "hi, I want to cancel my appointment for the day after tomorrow no wait, for Frida",
+        "silence_ms": 319.8,
+        "p_safe": 0.6838235294117647,
+        "l2": 0,
+        "pause_trigger": true,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 6780.2,
+        "text": "hi, I want to cancel my appointment for the day after tomorrow no wait, for Friday",
+        "silence_ms": 500.0,
+        "p_safe": 1.0,
+        "l2": 1,
+        "pause_trigger": true,
+        "jaldi_trigger": true
+      }
+    ],
+    "heuristic": {
+      "saved": 0.0,
+      "wasted": 2,
+      "calls": 3,
+      "committed": true,
+      "wrong_commit": false
+    },
+    "jaldi": {
+      "saved": 0.0,
+      "wasted": 1,
+      "calls": 2,
+      "committed": true,
+      "wrong_commit": false
+    }
+  },
+  {
+    "id": "t01746",
+    "lang": "en",
+    "phenomenon": "plain",
+    "final_text": "I'd like to book an appointment with a general physician for Monday at eleven",
+    "gold_action": {
+      "intent": "book_appointment",
+      "polarity": "pos",
+      "slots": {
+        "doctor": "general",
+        "day": "monday",
+        "time": "11"
+      }
+    },
+    "eot_ms": 6632.3,
+    "speech_end_ms": 6132.3,
+    "pause_x_ms": 200.0,
+    "tau": 0.7,
+    "time_to_ready_ms": 600.0,
+    "partials": [
+      {
+        "t_ms": 600,
+        "text": "I'd",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 800,
+        "text": "I'",
+        "silence_ms": 9.8,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 1000,
+        "text": "I'd like t",
+        "silence_ms": 9.7,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 1200,
+        "text": "I'd like to",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 1400,
+        "text": "I'd like to book",
+        "silence_ms": 140.3,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 1600,
+        "text": "I'd like to book",
+        "silence_ms": 340.3,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": true,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 1800,
+        "text": "I'd like to book",
+        "silence_ms": 540.3,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": true,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 2000,
+        "text": "I'd like to book",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 2200,
+        "text": "I'd like to book",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 2400,
+        "text": "I'd like to book ann",
+        "silence_ms": 0.0,
+        "p_safe": 0.2954545454545454,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 2600,
+        "text": "I'd like to book an appointm",
+        "silence_ms": 0.0,
+        "p_safe": 0.3333333333333333,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 2800,
+        "text": "I'd like to book an appointment w",
+        "silence_ms": 0.0,
+        "p_safe": 0.3526011560693641,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 3000,
+        "text": "I'd like to book an appointment",
+        "silence_ms": 0.0,
+        "p_safe": 0.6580976863753213,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 3200,
+        "text": "I'd like to book an appointment with a",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 3400,
+        "text": "I'd like to book an appointment with a",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 3600,
+        "text": "I'd like to book an appointment with a general",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 3800,
+        "text": "I'd like to book an appointment with a general",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 4000,
+        "text": "I'd like to book an appointment with a general physician",
+        "silence_ms": 160.3,
+        "p_safe": 0.6340579710144928,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 4200,
+        "text": "I'd like to book an appointment with a general physician",
+        "silence_ms": 0.0,
+        "p_safe": 0.2272727272727272,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 4400,
+        "text": "I'd like to book an appointment with a general physician fo",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 4600,
+        "text": "I'd like to book an appointment with a general physician for",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 4800,
+        "text": "I'd like to book an appointment with a general physician for Monday",
+        "silence_ms": 84.5,
+        "p_safe": 0.6340579710144928,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 5000,
+        "text": "I'd like to book an appointment with a general physician for Monday",
+        "silence_ms": 284.5,
+        "p_safe": 0.6838235294117647,
+        "l2": 0,
+        "pause_trigger": true,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 5200,
+        "text": "I'd like to book an appointment with a general physician for Monday",
+        "silence_ms": 484.5,
+        "p_safe": 0.8292682926829268,
+        "l2": 0,
+        "pause_trigger": true,
+        "jaldi_trigger": true
+      },
+      {
+        "t_ms": 5400,
+        "text": "I'd like to book an appointment with a general physician for Monda",
+        "silence_ms": 684.5,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": true,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 5600,
+        "text": "I'd like to book an appointment with a general physician for Monday",
+        "silence_ms": 884.5,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": true,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 5800,
+        "text": "I'd like to book an appointment with a general physician for Monday a",
+        "silence_ms": 21.1,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 6000,
+        "text": "I'd like to book an appointment with a general physician for Monday at",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 6200,
+        "text": "I'd like to book an appointment with a general physician for Monday att",
+        "silence_ms": 67.7,
+        "p_safe": 0.3865546218487395,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 6400,
+        "text": "I'd like to book an appointment with a general physician for Monday at eleven",
+        "silence_ms": 267.7,
+        "p_safe": 0.6838235294117647,
+        "l2": 1,
+        "pause_trigger": true,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 6600,
+        "text": "I'd like to book an appointment with a general physician for Monday at eleven",
+        "silence_ms": 467.7,
+        "p_safe": 1.0,
+        "l2": 1,
+        "pause_trigger": true,
+        "jaldi_trigger": true
+      },
+      {
+        "t_ms": 6632.3,
+        "text": "I'd like to book an appointment with a general physician for Monday at eleven",
+        "silence_ms": 500.0,
+        "p_safe": 1.0,
+        "l2": 1,
+        "pause_trigger": true,
+        "jaldi_trigger": true
+      }
+    ],
+    "heuristic": {
+      "saved": 0.0,
+      "wasted": 3,
+      "calls": 3,
+      "committed": false,
+      "wrong_commit": false
+    },
+    "jaldi": {
+      "saved": 32.30000000000018,
+      "wasted": 1,
+      "calls": 2,
+      "committed": true,
+      "wrong_commit": false
+    }
+  },
+  {
+    "id": "t00357",
+    "lang": "hi",
+    "phenomenon": "negation",
+    "final_text": "अपॉइंटमेंट कैंसल मत कीजिए",
+    "gold_action": {
+      "intent": "cancel_appointment",
+      "polarity": "neg",
+      "slots": {}
+    },
+    "eot_ms": 3276.1,
+    "speech_end_ms": 2776.1,
+    "pause_x_ms": 200.0,
+    "tau": 0.7,
+    "time_to_ready_ms": 600.0,
+    "partials": [
+      {
+        "t_ms": 800,
+        "text": "अपॉइंटमे",
+        "silence_ms": 23.7,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 1000,
+        "text": "अपॉइंटमेंट",
+        "silence_ms": 223.7,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": true,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 1200,
+        "text": "अपॉइंटमेंट",
+        "silence_ms": 423.7,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": true,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 1400,
+        "text": "अपॉइंटमेंट",
+        "silence_ms": 623.7,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": true,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 1600,
+        "text": "अपॉइंटमेंट",
+        "silence_ms": 823.7,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": true,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 1800,
+        "text": "अपॉइंटमेंट",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 2000,
+        "text": "अपॉइंटमेंट कैंस",
+        "silence_ms": 21.2,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 2200,
+        "text": "अपॉइंटमेंट कैंसल",
+        "silence_ms": 221.2,
+        "p_safe": 0.3526011560693641,
+        "l2": 0,
+        "pause_trigger": true,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 2400,
+        "text": "अपॉइंटमेंट कैंसल",
+        "silence_ms": 0.0,
+        "p_safe": 0.6340579710144928,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 2600,
+        "text": "अपॉइंटमेंट कैंसल",
+        "silence_ms": 0.0,
+        "p_safe": 0.3526011560693641,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 2800,
+        "text": "अपॉइंटमेंट कैंसल मत",
+        "silence_ms": 23.9,
+        "p_safe": 1.0,
+        "l2": 1,
+        "pause_trigger": false,
+        "jaldi_trigger": true
+      },
+      {
+        "t_ms": 3000,
+        "text": "अपॉइंटमेंट कैंसल मत कीजि",
+        "silence_ms": 223.9,
+        "p_safe": 1.0,
+        "l2": 1,
+        "pause_trigger": true,
+        "jaldi_trigger": true
+      },
+      {
+        "t_ms": 3200,
+        "text": "अपॉइंटमेंट कैंसल मत कीजिए",
+        "silence_ms": 423.9,
+        "p_safe": 1.0,
+        "l2": 1,
+        "pause_trigger": true,
+        "jaldi_trigger": true
+      },
+      {
+        "t_ms": 3276.1,
+        "text": "अपॉइंटमेंट कैंसल मत कीजिए",
+        "silence_ms": 500.0,
+        "p_safe": 1.0,
+        "l2": 1,
+        "pause_trigger": true,
+        "jaldi_trigger": true
+      }
+    ],
+    "heuristic": {
+      "saved": 276.0999999999999,
+      "wasted": 2,
+      "calls": 3,
+      "committed": true,
+      "wrong_commit": false
+    },
+    "jaldi": {
+      "saved": 476.0999999999999,
+      "wasted": 0,
+      "calls": 1,
+      "committed": true,
+      "wrong_commit": false
+    }
+  },
+  {
+    "id": "t00028",
+    "lang": "hi",
+    "phenomenon": "late_correction",
+    "final_text": "सोमवार का अपॉइंटमेंट नहीं, परसों के लिए कैंसल कर दीजिए",
+    "gold_action": {
+      "intent": "cancel_appointment",
+      "polarity": "pos",
+      "slots": {
+        "day": "day_after"
+      }
+    },
+    "eot_ms": 4692.5,
+    "speech_end_ms": 4192.5,
+    "pause_x_ms": 200.0,
+    "tau": 0.7,
+    "time_to_ready_ms": 600.0,
+    "partials": [
+      {
+        "t_ms": 600,
+        "text": "सोमव",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 800,
+        "text": "सोमवार",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 1000,
+        "text": "सोमवार का",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 1200,
+        "text": "सोमवार का",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 1400,
+        "text": "सोमवार का अपॉइंटमें",
+        "silence_ms": 45.3,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 1600,
+        "text": "सोमवार का अपॉइंटमें",
+        "silence_ms": 245.3,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": true,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 1800,
+        "text": "सोमवार का अपॉइंटमेंट",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 2000,
+        "text": "सोमवार का अपॉइंटमेंट नहीं",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 2200,
+        "text": "सोमवार का अपॉइंटमेंट नहीं,",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 2400,
+        "text": "सोमवार का अपॉइंटमेंट नहीं, परसों",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 2600,
+        "text": "सोमवार का अपॉइंटमेंट नहीं, परसों के",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 2800,
+        "text": "सोमवार का अपॉइंटमेंट नहीं, परसों के",
+        "silence_ms": 47.7,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 3000,
+        "text": "सोमवार का अपॉइंटमेंट नहीं, परसों के लि",
+        "silence_ms": 247.7,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": true,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 3200,
+        "text": "सोमवार का अपॉइंटमेंट नहीं, परसों के लिए",
+        "silence_ms": 447.7,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": true,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 3400,
+        "text": "सोमवार का अपॉइंटमेंट नहीं, परसों के लि",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 3600,
+        "text": "सोमवार का अपॉइंटमेंट नहीं, परसों के लिए",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 3800,
+        "text": "सोमवार का अपॉइंटमेंट नहीं, परसों के लिए कैंसल क",
+        "silence_ms": 0.0,
+        "p_safe": 1.0,
+        "l2": 1,
+        "pause_trigger": false,
+        "jaldi_trigger": true
+      },
+      {
+        "t_ms": 4000,
+        "text": "सोमवार का अपॉइंटमेंट नहीं, परसों के लिए कैंसल कर",
+        "silence_ms": 0.0,
+        "p_safe": 1.0,
+        "l2": 1,
+        "pause_trigger": false,
+        "jaldi_trigger": true
+      },
+      {
+        "t_ms": 4200,
+        "text": "सोमवार का अपॉइंटमेंट नहीं, परसों के लिए कैंसल कर",
+        "silence_ms": 7.5,
+        "p_safe": 1.0,
+        "l2": 1,
+        "pause_trigger": false,
+        "jaldi_trigger": true
+      },
+      {
+        "t_ms": 4400,
+        "text": "सोमवार का अपॉइंटमेंट नहीं, परसों के लिए कैंसल कर दीजिए",
+        "silence_ms": 207.5,
+        "p_safe": 1.0,
+        "l2": 1,
+        "pause_trigger": true,
+        "jaldi_trigger": true
+      },
+      {
+        "t_ms": 4600,
+        "text": "सोमवार का अपॉइंटमेंट नहीं, परसों के लिए कैंसल कर दीजिए",
+        "silence_ms": 407.5,
+        "p_safe": 1.0,
+        "l2": 1,
+        "pause_trigger": true,
+        "jaldi_trigger": true
+      },
+      {
+        "t_ms": 4692.5,
+        "text": "सोमवार का अपॉइंटमेंट नहीं, परसों के लिए कैंसल कर दीजिए",
+        "silence_ms": 500.0,
+        "p_safe": 1.0,
+        "l2": 1,
+        "pause_trigger": true,
+        "jaldi_trigger": true
+      }
+    ],
+    "heuristic": {
+      "saved": 292.5,
+      "wasted": 2,
+      "calls": 3,
+      "committed": true,
+      "wrong_commit": false
+    },
+    "jaldi": {
+      "saved": 600.0,
+      "wasted": 0,
+      "calls": 1,
+      "committed": true,
+      "wrong_commit": false
+    }
+  },
+  {
+    "id": "t00016",
+    "lang": "hi",
+    "phenomenon": "plain",
+    "final_text": "मुझे पांच बजे ऑफिस के लिए कैब बुक करनी है",
+    "gold_action": {
+      "intent": "book_cab",
+      "polarity": "pos",
+      "slots": {
+        "place": "office",
+        "time": "5"
+      }
+    },
+    "eot_ms": 5022.0,
+    "speech_end_ms": 4522.0,
+    "pause_x_ms": 200.0,
+    "tau": 0.7,
+    "time_to_ready_ms": 600.0,
+    "partials": [
+      {
+        "t_ms": 800,
+        "text": "मुझे",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 1000,
+        "text": "मुझे",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 1200,
+        "text": "मुझे पांच",
+        "silence_ms": 43.3,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 1400,
+        "text": "मुझे पांच बजे",
+        "silence_ms": 243.3,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": true,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 1600,
+        "text": "मुझे पांच बज",
+        "silence_ms": 443.3,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": true,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 1800,
+        "text": "मुझे पांच बजे",
+        "silence_ms": 643.3,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": true,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 2000,
+        "text": "मुझे पांच बज",
+        "silence_ms": 843.3,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": true,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 2200,
+        "text": "मुझे पांच बजे",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 2400,
+        "text": "मुझे पांच बजे",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 2600,
+        "text": "मुझे पांच बजे ऑफिस के",
+        "silence_ms": 27.4,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 2800,
+        "text": "मुझे पांच बजे ऑफिस के ल",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 3000,
+        "text": "मुझे पांच बजे ऑफिस के लि",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 3200,
+        "text": "मुझे पांच बजे ऑफिस के लिए",
+        "silence_ms": 95.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 3400,
+        "text": "मुझे पांच बजे ऑफिस के लिए कैब",
+        "silence_ms": 295.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": true,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 3600,
+        "text": "मुझे पांच बजे ऑफिस के लिए कै",
+        "silence_ms": 495.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": true,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 3800,
+        "text": "मुझे पांच बजे ऑफिस के लिए कैब",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 4000,
+        "text": "मुझे पांच बजे ऑफिस के लिए कैब बु",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 4200,
+        "text": "मुझे पांच बजे ऑफिस के लिए कैब बुक क",
+        "silence_ms": 0.0,
+        "p_safe": 0.6580976863753213,
+        "l2": 1,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 4400,
+        "text": "मुझे पांच बजे ऑफिस के लिए कैब बुक",
+        "silence_ms": 0.0,
+        "p_safe": 0.6340579710144928,
+        "l2": 1,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 4600,
+        "text": "मुझे पांच बजे ऑफिस के लिए कैब बुक करनी है",
+        "silence_ms": 78.0,
+        "p_safe": 0.6580976863753213,
+        "l2": 1,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 4800,
+        "text": "मुझे पांच बजे ऑफिस के लिए कैब बुक करनी है",
+        "silence_ms": 278.0,
+        "p_safe": 0.8064516129032258,
+        "l2": 1,
+        "pause_trigger": true,
+        "jaldi_trigger": true
+      },
+      {
+        "t_ms": 5000,
+        "text": "मुझे पांच बजे ऑफिस के लिए कैब बुक करनी है",
+        "silence_ms": 478.0,
+        "p_safe": 0.8292682926829268,
+        "l2": 1,
+        "pause_trigger": true,
+        "jaldi_trigger": true
+      },
+      {
+        "t_ms": 5022.0,
+        "text": "मुझे पांच बजे ऑफिस के लिए कैब बुक करनी है",
+        "silence_ms": 500.0,
+        "p_safe": 1.0,
+        "l2": 1,
+        "pause_trigger": true,
+        "jaldi_trigger": true
+      }
+    ],
+    "heuristic": {
+      "saved": 0.0,
+      "wasted": 3,
+      "calls": 3,
+      "committed": false,
+      "wrong_commit": false
+    },
+    "jaldi": {
+      "saved": 222.0,
+      "wasted": 0,
+      "calls": 1,
+      "committed": true,
+      "wrong_commit": false
+    }
+  },
+  {
+    "id": "t00915",
+    "lang": "hinglish",
+    "phenomenon": "negation",
+    "final_text": "suniye, mujhe appointment cancel nahi karna hai",
+    "gold_action": {
+      "intent": "cancel_appointment",
+      "polarity": "neg",
+      "slots": {}
+    },
+    "eot_ms": 4540.4,
+    "speech_end_ms": 4040.4,
+    "pause_x_ms": 200.0,
+    "tau": 0.7,
+    "time_to_ready_ms": 600.0,
+    "partials": [
+      {
+        "t_ms": 800,
+        "text": "suniy",
+        "silence_ms": 153.4,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 1000,
+        "text": "suniy",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 1200,
+        "text": "suniye,",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 1400,
+        "text": "suniye, mujh",
+        "silence_ms": 143.5,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 1600,
+        "text": "suniye, mujhe",
+        "silence_ms": 343.5,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": true,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 1800,
+        "text": "suniye, mujhe",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 2000,
+        "text": "suniye, mujh",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 2200,
+        "text": "suniye, mujhe",
+        "silence_ms": 45.9,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 2400,
+        "text": "suniye, mujhe appointment",
+        "silence_ms": 245.9,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": true,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 2600,
+        "text": "suniye, mujhe appointment",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 2800,
+        "text": "suniye, mujhe appointment",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 3000,
+        "text": "suniye, mujhe appointment cancel",
+        "silence_ms": 150.2,
+        "p_safe": 0.3865546218487395,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 3200,
+        "text": "suniye, mujhe appointment cancel",
+        "silence_ms": 0.0,
+        "p_safe": 0.625,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 3400,
+        "text": "suniye, mujhe appointment cancel",
+        "silence_ms": 0.0,
+        "p_safe": 0.3526011560693641,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 3600,
+        "text": "suniye, mujhe appointment cancel nahi",
+        "silence_ms": 0.0,
+        "p_safe": 1.0,
+        "l2": 1,
+        "pause_trigger": false,
+        "jaldi_trigger": true
+      },
+      {
+        "t_ms": 3800,
+        "text": "suniye, mujhe appointment cancel nahi karn",
+        "silence_ms": 41.2,
+        "p_safe": 1.0,
+        "l2": 1,
+        "pause_trigger": false,
+        "jaldi_trigger": true
+      },
+      {
+        "t_ms": 4000,
+        "text": "suniye, mujhe appointment cancel nahi karna h",
+        "silence_ms": 0.0,
+        "p_safe": 0.6580976863753213,
+        "l2": 1,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 4200,
+        "text": "suniye, mujhe appointment cancel nahi karna hai",
+        "silence_ms": 159.6,
+        "p_safe": 1.0,
+        "l2": 1,
+        "pause_trigger": false,
+        "jaldi_trigger": true
+      },
+      {
+        "t_ms": 4400,
+        "text": "suniye, mujhe appointment cancel nahi karna hai",
+        "silence_ms": 359.6,
+        "p_safe": 1.0,
+        "l2": 1,
+        "pause_trigger": true,
+        "jaldi_trigger": true
+      },
+      {
+        "t_ms": 4540.4,
+        "text": "suniye, mujhe appointment cancel nahi karna hai",
+        "silence_ms": 500.0,
+        "p_safe": 1.0,
+        "l2": 1,
+        "pause_trigger": true,
+        "jaldi_trigger": true
+      }
+    ],
+    "heuristic": {
+      "saved": 140.39999999999964,
+      "wasted": 1,
+      "calls": 2,
+      "committed": true,
+      "wrong_commit": false
+    },
+    "jaldi": {
+      "saved": 600.0,
+      "wasted": 0,
+      "calls": 1,
+      "committed": true,
+      "wrong_commit": false
+    }
+  },
+  {
+    "id": "t01061",
+    "lang": "hinglish",
+    "phenomenon": "late_correction",
+    "final_text": "kal skin specialist ka appointment matlab general physician ke saath book kar do",
+    "gold_action": {
+      "intent": "book_appointment",
+      "polarity": "pos",
+      "slots": {
+        "doctor": "general",
+        "day": "tomorrow"
+      }
+    },
+    "eot_ms": 6051.8,
+    "speech_end_ms": 5551.8,
+    "pause_x_ms": 200.0,
+    "tau": 0.7,
+    "time_to_ready_ms": 600.0,
+    "partials": [
+      {
+        "t_ms": 600,
+        "text": "kal",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 800,
+        "text": "kal",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 1000,
+        "text": "kal skin",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 1200,
+        "text": "kal skin spec",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 1400,
+        "text": "kal skin",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 1600,
+        "text": "kal skin specialist",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 1800,
+        "text": "kal skin specialist ka a",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 2000,
+        "text": "kal skin specialist ka",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 2200,
+        "text": "kal skin specialist kaa",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 2400,
+        "text": "kal skin specialist ka appointment",
+        "silence_ms": 183.3,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 2600,
+        "text": "kal skin specialist ka appointment",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 2800,
+        "text": "kal skin specialist ka appointment",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 3000,
+        "text": "kal skin specialist ka appointment matla",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 3200,
+        "text": "kal skin specialist ka appointment matlab",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 3400,
+        "text": "kal skin specialist ka appointment matlab general",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 3600,
+        "text": "kal skin specialist ka appointment matlab genera",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 3800,
+        "text": "kal skin specialist ka appointment matlab general",
+        "silence_ms": 20.1,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 4000,
+        "text": "kal skin specialist ka appointment matlab general physician k",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 4200,
+        "text": "kal skin specialist ka appointment matlab general physician ke",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 4400,
+        "text": "kal skin specialist ka appointment matlab general physician ke",
+        "silence_ms": 5.5,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 4600,
+        "text": "kal skin specialist ka appointment matlab general physician ke saath",
+        "silence_ms": 205.5,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": true,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 4800,
+        "text": "kal skin specialist ka appointment matlab general physician ke saath",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 5000,
+        "text": "kal skin specialist ka appointment matlab general physician ke saath",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 5200,
+        "text": "kal skin specialist ka appointment matlab general physician ke saath book",
+        "silence_ms": 0.0,
+        "p_safe": 0.6340579710144928,
+        "l2": 1,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 5400,
+        "text": "kal skin specialist ka appointment matlab general physician ke saath book",
+        "silence_ms": 0.0,
+        "p_safe": 0.6340579710144928,
+        "l2": 1,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 5600,
+        "text": "kal skin specialist ka appointment matlab general physician ke saath book kar",
+        "silence_ms": 48.2,
+        "p_safe": 0.6580976863753213,
+        "l2": 1,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 5800,
+        "text": "kal skin specialist ka appointment matlab general physician ke saath book kar do",
+        "silence_ms": 248.2,
+        "p_safe": 0.6838235294117647,
+        "l2": 1,
+        "pause_trigger": true,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 6000,
+        "text": "kal skin specialist ka appointment matlab general physician ke saath book kar do",
+        "silence_ms": 448.2,
+        "p_safe": 0.92,
+        "l2": 1,
+        "pause_trigger": true,
+        "jaldi_trigger": true
+      },
+      {
+        "t_ms": 6051.8,
+        "text": "kal skin specialist ka appointment matlab general physician ke saath book kar do",
+        "silence_ms": 500.0,
+        "p_safe": 1.0,
+        "l2": 1,
+        "pause_trigger": true,
+        "jaldi_trigger": true
+      }
+    ],
+    "heuristic": {
+      "saved": 251.80000000000018,
+      "wasted": 1,
+      "calls": 2,
+      "committed": true,
+      "wrong_commit": false
+    },
+    "jaldi": {
+      "saved": 51.80000000000018,
+      "wasted": 0,
+      "calls": 1,
+      "committed": true,
+      "wrong_commit": false
+    }
+  },
+  {
+    "id": "t01798",
+    "lang": "hinglish",
+    "phenomenon": "plain",
+    "final_text": "mujhe skin specialist ka appointment book karna hai",
+    "gold_action": {
+      "intent": "book_appointment",
+      "polarity": "pos",
+      "slots": {
+        "doctor": "skin"
+      }
+    },
+    "eot_ms": 4538.0,
+    "speech_end_ms": 4038.0,
+    "pause_x_ms": 200.0,
+    "tau": 0.7,
+    "time_to_ready_ms": 600.0,
+    "partials": [
+      {
+        "t_ms": 800,
+        "text": "mujhe",
+        "silence_ms": 209.4,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": true,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 1000,
+        "text": "mujhe",
+        "silence_ms": 409.4,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": true,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 1200,
+        "text": "mujhe",
+        "silence_ms": 609.4,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": true,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 1400,
+        "text": "mujhe",
+        "silence_ms": 809.4,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": true,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 1600,
+        "text": "mujhe",
+        "silence_ms": 1009.4,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": true,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 1800,
+        "text": "mujhe",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 2000,
+        "text": "mujhe",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 2200,
+        "text": "mujhe skin spe",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 2400,
+        "text": "mujhe skin",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 2600,
+        "text": "mujhe skin specialist k",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 2800,
+        "text": "mujhe skin specialist ka",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 3000,
+        "text": "mujhe skin specialist ka",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 3200,
+        "text": "mujhe skin specialist ka",
+        "silence_ms": 34.4,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 3400,
+        "text": "mujhe skin specialist ka appointment b",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 3600,
+        "text": "mujhe skin specialist ka appointment",
+        "silence_ms": 0.0,
+        "p_safe": 0.0,
+        "l2": 0,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 3800,
+        "text": "mujhe skin specialist ka appointment book",
+        "silence_ms": 0.0,
+        "p_safe": 0.6340579710144928,
+        "l2": 1,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 4000,
+        "text": "mujhe skin specialist ka appointment book karna h",
+        "silence_ms": 0.0,
+        "p_safe": 0.6838235294117647,
+        "l2": 1,
+        "pause_trigger": false,
+        "jaldi_trigger": false
+      },
+      {
+        "t_ms": 4200,
+        "text": "mujhe skin specialist ka appointment book karna hai",
+        "silence_ms": 162.0,
+        "p_safe": 0.8292682926829268,
+        "l2": 1,
+        "pause_trigger": false,
+        "jaldi_trigger": true
+      },
+      {
+        "t_ms": 4400,
+        "text": "mujhe skin specialist ka appointment book karna hai",
+        "silence_ms": 362.0,
+        "p_safe": 0.92,
+        "l2": 1,
+        "pause_trigger": true,
+        "jaldi_trigger": true
+      },
+      {
+        "t_ms": 4538.0,
+        "text": "mujhe skin specialist ka appointment book karna hai",
+        "silence_ms": 500.0,
+        "p_safe": 1.0,
+        "l2": 1,
+        "pause_trigger": true,
+        "jaldi_trigger": true
+      }
+    ],
+    "heuristic": {
+      "saved": 138.0,
+      "wasted": 1,
+      "calls": 2,
+      "committed": true,
+      "wrong_commit": false
+    },
+    "jaldi": {
+      "saved": 338.0,
+      "wasted": 0,
+      "calls": 1,
+      "committed": true,
+      "wrong_commit": false
+    }
+  }
+]

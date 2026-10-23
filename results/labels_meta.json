@@ -1,0 +1,11 @@
+{
+  "extractor": "rule",
+  "final_action_matches_gold": 1.0,
+  "by_lang": {
+    "en": 1.0,
+    "hi": 1.0,
+    "hinglish": 1.0
+  },
+  "n_turns": 1800,
+  "mode": "text_sim"
+}
